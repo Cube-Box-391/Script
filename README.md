@@ -2,7 +2,7 @@
 > La explicación de la situación está en se puede encontrar [aquí](https://youtu.be/WhJ21pJ-IRQ). El bot ya no se encuentra en funcionamiento. Podeis hacer un fork de este repositorio y crear vuestros propios bots para seguir con la esencia de Node 😄
 
 
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="🤖 Node" src="https://i.goopics.net/52j27r.jpg">  
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="🤖 Script" src="https://cdn.discordapp.com/attachments/716260645271765024/891024190243745812/Script.png">  
 
 # Node
 
