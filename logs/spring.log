@@ -1,0 +1,487 @@
+2021-09-30 19:38:28.518  INFO 26568 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        15fba353d9f14956073e3644d6c5c4b9e3eae2a7-SNAPSHOT
+	Build:          Unofficial
+	Build time:     01.07.2021 19:04:56 UTC
+	Branch          HEAD
+	Commit:         15fba35
+	Commit time:    01.07.2021 18:53:53 UTC
+	JVM:            16.0.2
+	Lavaplayer      1.3.78
+
+2021-09-30 19:38:28.786  INFO 26568 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16.0.2 on AdrianPC with PID 26568 (F:\programación\discord bot\Script\Lavalink2.jar started by adria in F:\programación\discord bot\Script)
+2021-09-30 19:38:28.788  INFO 26568 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-30 19:38:29.046  WARN 26568 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-30 19:38:31.027  WARN 26568 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-09-30 19:38:31.050  INFO 26568 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-09-30 19:38:31.050  INFO 26568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2167 ms
+2021-09-30 19:38:31.193  INFO 26568 --- [main] l.s.config.AudioPlayerConfiguration      : List of ip blocks is empty, skipping setup of route planner
+2021-09-30 19:38:31.412  INFO 26568 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-09-30 19:38:31.649  INFO 26568 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-09-30 19:38:31.649  WARN 26568 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-09-30 19:38:31.650  INFO 26568 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2021-09-30 19:38:31.663  INFO 26568 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2021-09-30 19:38:31.666  INFO 26568 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2021-09-30 19:38:31.685  INFO 26568 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2021-09-30 19:38:31.698  INFO 26568 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2021-09-30 19:38:31.700  INFO 26568 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2021-09-30 19:38:31.724  WARN 26568 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-09-30 19:38:33.296  INFO 26568 --- [main] io.undertow                              : starting server: Undertow - 2.2.7.Final
+2021-09-30 19:38:33.309  INFO 26568 --- [main] org.xnio                                 : XNIO version 3.8.0.Final
+2021-09-30 19:38:33.324  INFO 26568 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.0.Final
+2021-09-30 19:38:33.420  INFO 26568 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2021-09-30 19:38:33.495  INFO 26568 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2021-09-30 19:38:33.506  INFO 26568 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.709 seconds (JVM running for 6.837)
+2021-09-30 19:38:33.507  INFO 26568 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-09-30 19:38:33.509  INFO 26568 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-09-30 19:39:51.818  INFO 26568 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-30 19:39:51.818  INFO 26568 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-30 19:39:51.819  INFO 26568 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-30 19:39:51.833  INFO 26568 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:1041
+2021-09-30 19:39:51.963  INFO 26568 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-09-30 19:39:52.260  WARN 26568 --- [pool-3-thread-1] o.u.p.windows.PerfCounterWildcardQuery   : Disabling further attempts to query Process.
+2021-09-30 19:39:52.337  WARN 26568 --- [pool-3-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:39:52.377 ERROR 26568 --- [pool-3-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:40:51.973  WARN 26568 --- [pool-3-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:40:52.004 ERROR 26568 --- [pool-3-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:41:38.580  INFO 26568 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:1041 -- CloseStatus[code=1006, reason=]
+2021-09-30 19:41:38.581  INFO 26568 --- [XNIO-1 I/O-11] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-09-30 19:46:58.912  INFO 26568 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:11286
+2021-09-30 19:46:58.915  INFO 26568 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-09-30 19:46:58.930  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:46:58.957 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:47:58.943  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:47:58.965 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:48:58.944  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:48:58.963 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:49:58.945  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:49:58.975 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:50:58.931  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:50:58.943 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:51:58.929  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:51:58.942 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:52:58.941  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:52:58.954 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:53:58.943  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:53:58.956 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:54:58.941  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:54:58.955 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:55:58.945  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:55:58.959 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:56:58.937  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:56:58.949 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:57:58.936  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:57:58.948 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:58:58.931  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:58:58.951 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 19:59:58.943  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 19:59:58.956 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:00:58.938  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:00:58.950 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:01:58.937  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:01:58.950 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:02:58.934  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:02:58.946 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:03:58.932  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:03:58.944 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:04:58.937  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:04:58.949 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:05:58.945  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:05:58.958 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:06:58.933  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:06:58.946 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:07:58.969  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:07:58.982 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:08:58.935  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:08:58.956 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:09:58.938  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:09:58.951 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:10:58.943  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:10:58.957 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:11:58.930  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:11:58.943 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:12:58.945  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:12:58.961 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:13:58.941  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:13:58.954 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-09-30 20:14:58.946  WARN 26568 --- [pool-4-thread-1] o.util.platform.windows.WmiQueryHandler  : COM exception: Invalid Query: SELECT NAME,PRIORITY,CREATIONDATE,PROCESSID,PARENTPROCESSID,READTRANSFERCOUNT,WRITETRANSFERCOUNT,PRIVATEPAGECOUNT,PAGEFAULTSPERSEC FROM Win32_Process WHERE NOT Name LIKE"%_Total"
+2021-09-30 20:14:58.959 ERROR 26568 --- [pool-4-thread-1] lavalink.server.io.StatsTask             : Exception while sending stats
+
+java.lang.NullPointerException: Cannot invoke "oshi.software.os.OSProcess.getKernelTime()" because "p" is null
+	at lavalink.server.io.StatsTask.getProcessRecentCpuUsage(StatsTask.java:155) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.sendStats(StatsTask.java:94) ~[classes!/:na]
+	at lavalink.server.io.StatsTask.run(StatsTask.java:58) ~[classes!/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
