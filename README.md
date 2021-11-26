@@ -4,17 +4,15 @@
 
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="🤖 Script" src="https://cdn.discordapp.com/attachments/716260645271765024/891024190243745812/Script.png">  
 
-# Node
+# Script
 
-[![⭐ GitHub](https://img.shields.io/github/stars/LyricalString/Node.svg?style=social&label=Stars&style=flat)](https://github.com/LyricalString/Node/stargazers)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=LyricalString_probando&metric=ncloc)](https://sonarcloud.io/dashboard?id=LyricalString_probando)
+[![⭐ GitHub](https://img.shields.io/github/stars/CubeBox391/Script.svg?style=social&label=Stars&style=flat)](https://github.com/LyricalString/Node/stargazers)
+<!-- [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=LyricalString_probando&metric=ncloc)](https://sonarcloud.io/dashboard?id=LyricalString_probando) -->
 [![](https://img.shields.io/badge/discord.js-v13.0.0--dev-blue.svg?logo=npm)](https://github.com/discordjs)
-[![DevServer](https://discordapp.com/api/guilds/834440041010561074/widget.png?style=shield)](https://discord.gg/SbsFVV5dNG)
-[![](https://img.shields.io/github/languages/top/LyricalString/Node)]()
+[![DevServer](https://discordapp.com/api/guilds/744112347664089178/widget.png?style=shield)](https://discord.gg/kuMYA7f)
+[![](https://img.shields.io/github/languages/top/Cube-Box-391/Script)]()
 
-> Este bot fue usado por más de 3.000.000 usuarios de Discord y más de 28.000 servidores.
-
-Node es un bot multifunción, multilenguaje, programado en [Discord.js](https://discord.js.org) y [Mongoose](https://mongoosejs.com/docs/api.html) por [LyricalString](https://github.com/LyricalString).  
+Script es un bot multifunción, multilenguaje, programado en [Discord.js](https://discord.js.org) y [Mongoose](https://mongoosejs.com/docs/api.html) por [LyricalString](https://github.com/LyricalString).  
 ¡Añade una ⭐ al repositorio para promocionar el proyecto!
 
 ## Requisitos
@@ -27,7 +25,7 @@ Node es un bot multifunción, multilenguaje, programado en [Discord.js](https://
 ## 🚀 Guía de Instalación
 
 ```sh
-git clone https://github.com/LyricalString/Node
+git clone https://github.com/Cube-Box-391/Script
 cd Node
 npm install
 ```
@@ -51,7 +49,6 @@ EMBED_COLOR = "color predefinido para los embeds"
 errorWebhookID = "id del webhook donde se enviarán los errores"
 errorWebhookToken = "token del webhook donde se enviarán los errores"
 errorChannel = "id del canal de errores"
-topggToken = "token de topGG"
 clientIDSpotify = "id del cliente de Spotify"
 clientSecretSpotify = "token del cliente de Spotify"
 guildAddWebhookID = "id del webhook donde se enviarán las notificaciones para nuevos servidores"
