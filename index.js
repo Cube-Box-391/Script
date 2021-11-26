@@ -24,15 +24,6 @@ process.on('unhandledRejection', (reason) => {
     console.error(reason);
 });
 
-if (process.env.mode == 'production') {
-    const { AutoPoster } = require('topgg-autoposter')
-    const poster = AutoPoster(process.env.topggToken, manager)
-    
-    poster.on('posted', (stats) => {
-      console.log(`Actualizando TopGG... | ${stats.serverCount} servidores.`)
-    })
-}
-
 manager.on('shardCreate', shard => console.log(`Iniciando shard ${shard.id}`));
 
 manager.spawn().catch((err) => console.log(err));
