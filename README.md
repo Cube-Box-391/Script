@@ -98,4 +98,4 @@ If you want to contribute, feel free to create a pull request.
 
 ## 📜 License
 
-Script is license under a `GPL 3.0` License. Revise the `LICENSE` file for more info about the license. If you plan to use these code for the base of your bot, will be thankfull if you added us on the credits.
+Script is license under a `GNU General Public License v3.0` License. Revise the `LICENSE` file for more info about the license. If you plan to use these code for the base of your bot, will be thankfull if you added us on the credits.
