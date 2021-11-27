@@ -1,28 +1,24 @@
-> **⚠ AVISO ⚠**  
-> La explicación de la situación está en se puede encontrar [aquí](https://youtu.be/WhJ21pJ-IRQ). El bot ya no se encuentra en funcionamiento. Podeis hacer un fork de este repositorio y crear vuestros propios bots para seguir con la esencia de Node 😄
-
-
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="🤖 Script" src="https://cdn.discordapp.com/attachments/716260645271765024/891024190243745812/Script.png">  
 
 # Script
 
 [![⭐ GitHub](https://img.shields.io/github/stars/CubeBox391/Script.svg?style=social&label=Stars&style=flat)](https://github.com/LyricalString/Node/stargazers)
-<!-- [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=LyricalString_probando&metric=ncloc)](https://sonarcloud.io/dashboard?id=LyricalString_probando) -->
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=LyricalString_probando&metric=ncloc)](https://sonarcloud.io/dashboard?id=LyricalString_probando)
 [![](https://img.shields.io/badge/discord.js-v13.0.0--dev-blue.svg?logo=npm)](https://github.com/discordjs)
 [![DevServer](https://discordapp.com/api/guilds/744112347664089178/widget.png?style=shield)](https://discord.gg/kuMYA7f)
 [![](https://img.shields.io/github/languages/top/Cube-Box-391/Script)]()
 
-Script es un bot multifunción, multilenguaje, programado en [Discord.js](https://discord.js.org) y [Mongoose](https://mongoosejs.com/docs/api.html) por [LyricalString](https://github.com/LyricalString).  
-¡Añade una ⭐ al repositorio para promocionar el proyecto!
+Script is a multifunction, multilanguage bot, programed on [Discord.js](https://discord.js.org) and [Mongoose](https://mongoosejs.com/docs/api.html) by [Cube-Box-391](https://github.com/Cube-Box-391).  
+Add a ⭐ to the proyect to promote it!
 
-## Requisitos
+## Requirements
 
-1. Token de Discord Developers **[Guía](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
-2. Java (para ejecutar Lavalink del módulo de música)
-3. Node.js v16.0.0 o una más reciente.
+1. Token of Discord Developers **[Guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot)**
+2. Java (to run Lavalink for the music module)
+3. Node.js v16.0.0 or a more recent one.
 
 
-## 🚀 Guía de Instalación
+## 🚀 Instalation Guide
 
 ```sh
 git clone https://github.com/Cube-Box-391/Script
@@ -30,79 +26,76 @@ cd Node
 npm install
 ```
 
-⚠️ Luego de la instalación, antes de ejecutar `node index.js` y `java -jar Lavalink2.jar`, deberás de crear un archivo `.env` y añadir las credenciales tal como se muestra más abajo. 
+⚠️ After the instalation before running `node index.js` and `java -jar Lavalink2.jar`, you have to create a `.env` file and add the credentials how it's shown bellow. 
 
-## ⚙️ Configuración
+## ⚙️ Configuration
 
-Siguiendo el formato más abajo, deberás de crear un archivo llamado `.env` para añadir las credenciales.
+Following the format bellow, you shoud create a `.env` file to add the credentials.
 
-⚠️ **Nota: Nunca publiques o muestres tu token o las claves de API's públicamente** 
+⚠️ **Note: Never publish or show your token or API keys publicly** 
 
 ```json
 mode = "[development/production]"
-token = "token del bot"
+token = "bot token"
 lang = "[es_ES/en_US]"
-prefix = "prefijo predefinido"
-botID = "id del usuario bot"
-MONGO_URL =  "url de Mongo para que se conecte el bot"
-EMBED_COLOR = "color predefinido para los embeds"
-errorWebhookID = "id del webhook donde se enviarán los errores"
-errorWebhookToken = "token del webhook donde se enviarán los errores"
-errorChannel = "id del canal de errores"
-clientIDSpotify = "id del cliente de Spotify"
-clientSecretSpotify = "token del cliente de Spotify"
-guildAddWebhookID = "id del webhook donde se enviarán las notificaciones para nuevos servidores"
-guildAddWebhookToken = "token del webhook donde se enviarán las notificaciones para nuevos servidores"
-OsuSecret = "clave API para OSU"
-trnAPIKey = "clave API para TRN (comando de fnprofile)"
+prefix = "bot prefix"
+botID = "bot id"
+MONGO_URL =  "url of Mongo"
+EMBED_COLOR = "predifine color for embeds"
+errorWebhookID = "whebhook ID where error messages will be sent"
+errorWebhookToken = "whebhook token where errors will be sent"
+errorChannel = "channel ID where errors will be sent"
+clientIDSpotify = "Spotify client ID"
+clientSecretSpotify = "Spotify client token"
+guildAddWebhookID = "whebhook ID where new server notifications will be sent"
+guildAddWebhookToken = "whebhook token where new server notifications will be sent"
+OsuSecret = "OSU API key"
+trnAPIKey = "TRN API key (fnprofile command)"
 ```
-🚨 **Como mínimo deberás de rellenar hasta el MONGO_URL para poder iniciarlo, el resto te darán error los comandos que lo usen.** 🚨
+🚨 **You have to fill out at least untill MONGO_URL to start the bot, the rest will kist give you errors when trying to run the command that uses those credentials** 🚨
 
 
 
-## 🛠️ Características
+## 🛠️ Characteristics
 
-### Bot completo
+### Full Bot
 
-Lista de funciones:
-*   ✉️ Prefijo global o prefijo por servidor, además de la propia mención al bot.
-*   🇪🇸 Multilenguaje (Español e Inglés)
-*   ⚙️ Configuración en Mongo por servidor (prefijo, canales de escucha, etc...)
-*   😀 Comandos únicos en embeds
+List of functions:
+*   ✉️ Global prefix or prefixx per server, apart from the ping of the bot.
+*   en Multilanguage (Eanglish and Spanish)
+*   ⚙️ Configuration on Mongo per server (prefix, voice channels, etc...)
+*   😀 Unique commands on embeds
 
 
 
-### Categorías de comandos
+### Command categories
 
-Node tiene más de 100 comandos repartidos en  **7 categorías**:
+Script has over 100 commands spread on **7 categorías**:
 
-*   👩‍💼 **Administración**
-*   🛡 **Moderación**
-*   🎵 **Música**
-*   😂 **Diversión**
-*   🚩 **Información y Utilidades**
-*   🫂 **Interacción**
-*   💻 **Desarrollo** (Comandos que estaban en desarrollo, sin acabar)
+*   👩‍💼 **Administration**
+*   🛡 **Moderation**
+*   🎵 **Music**
+*   😂 **Fun**
+*   🚩 **Info and utilities**
+*   🫂 **Interaction**
+*   💻 **Development** (Commands that are currently in development)
 
 ## 📎 Links
 
-*   [Discord](https://discord.gg/SbsFVV5dNG)
-*   [Github](https://github.com/LyricalString)
+*   [Discord](https://discord.gg/kuMYA7f)
+*   [Github](https://github.com/Cube-Box-391)
 
-## 🤝 Contribuciones
+## 🤝 Contributions
 
-Antes de **reportar un error**, por favor asegúrate de que no ha sido reportado/sugerido anteriormente.   
-Si tienes cualquier duda, pregúntanosla en el [servidor de Discord](https://discord.gg/SbsFVV5dNG) en vez de crear un reporte.
-Si quieres contribuir, siéntete libre de bifurcar el repositorio y solicitar una pull request.
+Before **reporting and error**, please make sure that it hasn't been reported/address before on the [Issues](https://github.com/Cube-Box-391/Script/issues) page.   
+If you have any question, feel free to ask on the [Discord server](https://discord.gg/kuMYA7f) instead of creating an [Issue](https://github.com/Cube-Box-391/Script/issues).
+If you want to contribute, feel free to create a pull request.
 
-## 📝 Créditos
+## 📝 credits
 
-* [@amadeusgray](https://github.com/amadeusgray) Por ser mi mano derecha en el proyecto.
-* [@soyultro](https://github.com/SoyUltro) Por la ayuda creando comandos y el multilenguaje.
-* [@didacus12](https://github.com/Didacus12) Por tu ayuda en el desarrollo del bot.
-* [@usarral](https://github.com/usarral) Por tus aportes en Node.
-* [@andressantamaria2003](https://github.com/andressantamaria2003) Por prestarnos tu ayuda desde el hosting hasta en la seguridad de Node.
+* [@CubeBox391](https://github.com/Cube-Box-391) Main author of the project.
+* [@lyricalstring](https://github.com/LyricalString) Made the base of the code.
 
-## 📜 Licencia
+## 📜 License
 
-Node esta licenciado bajo la licencia GPL 3.0. Revisa el archivo `LICENSE` para más información. Si planeas usar cualquier parte de este código base en tu propio bot, estaría agradecido si se me incluyese en los créditos.
+Script is license under a GPL `3.0` License. Revise the `LICENSE` file for more info about the license. If you plan to use these code for the base of your bot, will be thankfull if you added us on the credits.
