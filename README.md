@@ -34,7 +34,7 @@ Following the format bellow, you shoud create a `.env` file to add the credentia
 
 ⚠️ **Note: Never publish or show your token or API keys publicly** 
 
-```json
+```env
 mode = "[development/production]"
 token = "bot token"
 lang = "[es_ES/en_US]"
